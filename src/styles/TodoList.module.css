@@ -38,6 +38,11 @@ button.addButton:hover {
   flex-grow: 1;
 }
 
+.todoText:hover {
+  background-color: rgb(255, 238, 174);
+  color: rgb(255, 167, 59);
+}
+
 .body {
   background-color: #0070f3;
 }

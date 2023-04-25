@@ -20,6 +20,8 @@ body {
 h1 {
   text-align: center;
   color: rgb(234 179 8);
+  text-decoration-line: underline;
+  text-decoration-line: overline;
 }
 
 ul {

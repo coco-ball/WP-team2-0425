@@ -20,6 +20,21 @@ body {
 h1 {
   text-align: center;
   color: rgb(234 179 8);
+  text-decoration-line: underline;
+  text-decoration-line: overline;
+  animation: bounce 1s infinite;
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
 }
 
 ul {

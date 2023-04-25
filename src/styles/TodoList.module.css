@@ -15,16 +15,16 @@ input[type="text"].itemInput {
 
 button.addButton {
   padding: 5px;
-  background-color: #0070f3;
+  background-color: #f3ae00;
   color: white;
-  border: 1px solid #0070f3;
+  border: 1px solid #f37500;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button.addButton:hover {
   background-color: #fff;
-  color: #0070f3;
+  color: #96f300;
 }
 
 .todoItem {
